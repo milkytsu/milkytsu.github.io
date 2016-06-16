@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "`HTML`的`input`标签中属性`readonly`与`disabled`区别"
+title:  "HTML的 input 标签中属性 readonly 与 disabled 区别"
 date:   2016-06-15 23:14:29 +0800
 categories: html readonly disabled
 ---
