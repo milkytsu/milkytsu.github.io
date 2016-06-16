@@ -2,7 +2,7 @@
 layout: post
 title:  "PHP的自动载入"
 date:   2016-01-17 00:14:29 +0800
-categories: jekyll update
+categories: php autoload
 ---
 
 # PHP的自动载入
