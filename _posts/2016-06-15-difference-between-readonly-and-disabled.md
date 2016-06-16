@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "HTML的 input 标签中属性 readonly 与 disabled 区别"
+title:  "HTML表单元素中属性 readonly 与 disabled 区别"
 date:   2016-06-15 23:14:29 +0800
 categories: html readonly disabled
 ---
 
-# `HTML`的`input`标签中属性`readonly`与`disabled`区别
+# `HTML`表单元素中属性`readonly`与`disabled`区别
 
 　　在表单中使用`jQuery`的`datetimepiker`插件填充时间的输入框时，想要实现不允许用户手动在输入框中输入时间，只允许使用插件填充。首先想到 `disabled` ，但是测试后发现使用`disabled`的元素无法响应`click`事件，经过搜索发现有`contenteditable`属性，设置为 `true`可编辑，`false`为不可编辑，但测试发现对`input`框不起作用，设置为`false`仍然可以填入内容。进一步搜索发现该属性是控制类似于`p`，`span`等标签的内容是否能够改变的。
 
